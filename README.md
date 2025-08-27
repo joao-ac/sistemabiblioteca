@@ -1,6 +1,6 @@
 # Sistema de Gerenciamento de Biblioteca - Spring Boot
 
-Este projeto demonstra o uso de Design Patterns em uma aplicação Spring Boot simples.
+Este projeto demonstra o uso de Design Patterns em uma aplicação Spring Boot que gerencia empréstimos de livros em uma biblioteca.
 
 ## Padrões de Projeto Utilizados
 
