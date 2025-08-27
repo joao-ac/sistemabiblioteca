@@ -1,6 +1,26 @@
-# Sistema Biblioteca
+# Sistema de Gerenciamento de Biblioteca - Spring Boot
 
-Este é um sistema de gerenciamento de biblioteca desenvolvido com Spring Boot, que permite o controle de livros, usuários e empréstimos.
+Este projeto demonstra o uso de Design Patterns em uma aplicação Spring Boot simples.
+
+## Padrões de Projeto Utilizados
+
+1. **Builder Pattern**
+   - Implementado na classe `Livro` para construção de objetos de forma mais flexível e legível
+
+2. **Strategy Pattern**
+   - Utilizado no pacote `service.strategy` para diferentes estratégias de negócio
+
+3. **Repository Pattern**
+   - Implementado através das interfaces `LivroRepositorio`, `UsuarioRepositorio` e `EmprestimoRepositorio` para abstração da camada de persistência
+
+4. **DTO Pattern**
+   - Utilizado através da classe `LivroDTO` para transferência de dados entre camadas
+
+5. **MVC Pattern**
+   - Estrutura do projeto segue o padrão Model-View-Controller com:
+     - Models: `Livro`, `Usuario`, `Emprestimo`
+     - Views: Templates em `resources/templates`
+     - Controllers: `LivroControlador`, `WebController`
 
 ## Pré-requisitos
 
@@ -37,23 +57,3 @@ O sistema estará disponível em `http://localhost:8080`
 
 A documentação da API está disponível através do Swagger UI em:
 `http://localhost:8080/swagger-ui.html`
-
-## Padrões de Projeto Utilizados
-
-1. **Builder Pattern**
-   - Implementado na classe `Livro` para construção de objetos de forma mais flexível e legível
-
-2. **Strategy Pattern**
-   - Utilizado no pacote `service.strategy` para diferentes estratégias de negócio
-
-3. **Repository Pattern**
-   - Implementado através das interfaces `LivroRepositorio`, `UsuarioRepositorio` e `EmprestimoRepositorio` para abstração da camada de persistência
-
-4. **DTO Pattern**
-   - Utilizado através da classe `LivroDTO` para transferência de dados entre camadas
-
-5. **MVC Pattern**
-   - Estrutura do projeto segue o padrão Model-View-Controller com:
-     - Models: `Livro`, `Usuario`, `Emprestimo`
-     - Views: Templates em `resources/templates`
-     - Controllers: `LivroControlador`, `WebController`
