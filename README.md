@@ -4,9 +4,8 @@ Este é um sistema de gerenciamento de biblioteca desenvolvido com Spring Boot, 
 
 ## Pré-requisitos
 
-- Java 11 ou superior
+- Java 21 ou superior
 - Maven
-- PostgreSQL (ou o banco de dados configurado em application.properties)
 
 ## Como executar
 
