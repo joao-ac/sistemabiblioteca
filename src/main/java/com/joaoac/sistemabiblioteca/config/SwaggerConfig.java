@@ -18,7 +18,7 @@ public class SwaggerConfig {
                         .version("1.0")
                         .description("API do Sistema de Biblioteca para gerenciamento de livros e empréstimos")
                         .contact(new Contact()
-                                .name("João AC")
-                                .email("joao@example.com")));
+                                .name("João Antonio Correia")
+                                .email("joao.ac1406@gmail.com")));
     }
 }
